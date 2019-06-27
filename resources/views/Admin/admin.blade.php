@@ -44,14 +44,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner">
-                <h3>150</h3>
+                <h3>10</h3>
 
                 <p>Karyawan Izin</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="DataTransaksi" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="/izindone" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -59,14 +59,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- small box -->
             <div class="small-box bg-green">
               <div class="inner">
-                <h3>53</h3>
+                <h3>5</h3>
 
                 <p>Karyawan Cuti</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="DataBuku" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="/cutidone" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -74,21 +74,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- small box -->
             <div class="small-box bg-yellow">
               <div class="inner">
-                <h3>44</h3>
+                <h3>94</h3>
 
                 <p>Karyawan Aktif</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="DataAnggota" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="/datakaryawan" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <div class="col-lg-3 col-xs-6">
             <!-- small box -->
             <div class="small-box bg-blue">
               <div class="inner">
-                <h3>44</h3>
+                <h3>2</h3>
 
                 <p>Karyawan Baru</p>
               </div>

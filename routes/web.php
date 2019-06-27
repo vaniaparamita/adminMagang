@@ -23,6 +23,10 @@ Route::get('/editkaryawan', function () {
     return view('Admin/editkaryawan');
 });
 
+Route::get('/tambahuser', function () {
+    return view('Admin/tambahuseraccess');
+});
+
 Route::get('/admin', 'AdminController@index');
 Route::get('/izindiajukan', 'IzinDiajukan@index');
 Route::get('/izindone', 'IzinDone@index');

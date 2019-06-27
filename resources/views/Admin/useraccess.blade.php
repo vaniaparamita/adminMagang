@@ -12,7 +12,11 @@
               <i class="ion ion-clipboard"></i>
 
               <h2 class="box-title">Daftar Akses Karyawan</h2>
-              <button class="btn btn-flat btn-primary">+ Tambah Karyawan</button>
+              <form action="/tambahuser" method="get">
+                  <td>
+                    <button type="submit" class="btn btn-flat btn-primary">+ Tambah Akses</button>
+                  </td>
+                </form>
              </div>
             </div>
             <br />
