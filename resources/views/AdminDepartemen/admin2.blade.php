@@ -22,17 +22,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
   <!-- Navbar -->
-  @include('admin/header')
+  @include('AdminDepartemen/header2')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  @include('admin/sidebar')
+  @include('AdminDepartemen/sidebar2')
 
   <div class="content-wrapper">
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h2>
-          Dashboard Karyawan <br />
+          Dashboard Karyawan Departemen X<br />
           <small>PT. Garuda Mitra Sejati</small>
         </h2>
       </section>
@@ -44,7 +44,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner">
-                <h3>150</h3>
+                <h3>10</h3>
 
                 <p>Karyawan Izin</p>
               </div>
@@ -59,7 +59,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- small box -->
             <div class="small-box bg-green">
               <div class="inner">
-                <h3>53</h3>
+                <h3>3</h3>
 
                 <p>Karyawan Cuti</p>
               </div>
@@ -84,21 +84,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <a href="DataAnggota" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-blue">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Karyawan Baru</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
         </div>
         <!--------------------------
           | Your Page Content Here |
@@ -127,7 +112,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  @include('admin/footer')
+  @include('AdminDepartemen/footer2')
 </div>
 <!-- ./wrapper -->
 
