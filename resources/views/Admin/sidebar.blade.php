@@ -96,6 +96,12 @@
                   <p>Tambah Karyawan</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/useraccess" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Akses Karyawan</p>
+                </a>
+              </li>
             </ul>
           </li>
           

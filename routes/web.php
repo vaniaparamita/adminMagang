@@ -19,6 +19,10 @@ Route::get('/welcomeDepartemen', function () {
     return view('welcomeDepartemen');
 });
 
+Route::get('/editkaryawan', function () {
+    return view('Admin/editkaryawan');
+});
+
 Route::get('/admin', 'AdminController@index');
 Route::get('/izindiajukan', 'IzinDiajukan@index');
 Route::get('/izindone', 'IzinDone@index');
@@ -26,6 +30,7 @@ Route::get('/cutidiajukan', 'CutiDiajukan@index');
 Route::get('/cutidone', 'CutiDone@index');
 Route::get('/tambahkaryawan', 'TambahKaryawan@index');
 Route::get('/datakaryawan', 'DataKaryawan@index');
+Route::get('/useraccess', 'UserAccess@index');
 
 Route::get('/admin2', 'Admin2Controller@index');
 Route::get('/izindiajukan2', 'IzinDiajukan2@index');
