@@ -5,24 +5,45 @@
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-      <div class="row">
-          <div class="col-lg-3 col-xs-5">     <!-- small box -->
-             <div class="small-box bg-aqua">
-              <div class="inner">
-              <div class="image">
-                <img src="/dept.jpg" class="img-circle elevation-2" alt="Center">
+        <div class="row mb-2">
+        <div class="col-sm-12">
+            <div class="box box-primary">
+            <div class="box-header">
+              <i class="ion ion-clipboard"></i>
+
+              <h2 class="box-title">Daftar Karyawan</h2>
+
+              <div class="box-tools pull-right">
+                <ul class="pagination pagination-sm inline">
+                  <li><a href="#">&laquo;</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
               </div>
-                <br />
-                <p>Nama Karyawan : M. Dzakwan Zaky</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="DataTransaksi" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+             </div>
             </div>
-          </div>
-          <!-- ./col -->
-          
-        </div>
+            <table class="table table-bordered">
+              <thead>
+              <tr>
+                <th>No.</th>
+                <th>Foto</th>
+                <th>NIK</th>
+                <th>Nama</th>
+                <th>JK</th>
+                <th>Alamat</th>
+                <th>NoHape</th>
+              </tr>
+              </thead>
+              
+            </table>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
     <!-- /.content-header -->
 @endsection
